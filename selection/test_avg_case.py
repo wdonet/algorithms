@@ -14,4 +14,4 @@ print('Time: ', end - start)
 if validate_sorted_array(input_array):
     print ("Sort OK")
 else:
-    print ("Failing Sort")
+    print ("Failing Sort ")
