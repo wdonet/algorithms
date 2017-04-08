@@ -9,6 +9,6 @@ How Algorithms work (with python code)
 - Heap
 - Bubble
 - Insertion
-- Selection
+- [Selection](selection)
 
 ## _More coming soon_
