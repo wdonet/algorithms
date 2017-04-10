@@ -39,19 +39,22 @@ Heap sort happens in two phases.
     - The array is transformed into a heap. 
 
 ![creatingTheHeap](https://d3vv6lp55qjaqc.cloudfront.net/items/3S23250G3T2r002n1m1o/Screen%20Recording%202017-04-10%20at%2003.46%20AM.gif)
-[link](https://cl.ly/383L0O3i1h29)
+
+[See bigger](https://cl.ly/383L0O3i1h29)
 
  - **Phase II**
     - The heap is continuously reduced to a sorted array, while the heap is not empty
         - Remove the top of the head into an array
         - Fix the heap.
 
-![sortingTheHeap](http://d3vv6lp55qjaqc.cloudfront.net/items/423f3M410x080H161M05/Screen%20Recording%202017-04-10%20at%2003.52%20AM.gif)
-[link](https://cl.ly/3o2P1e123N3q)
+![sortingTheHeap](https://d3vv6lp55qjaqc.cloudfront.net/items/383C2b0w260b2m3n3U15/Screen%20Recording%202017-04-10%20at%2003.52%20AM.gif)
+
+[See bigger](https://cl.ly/3o2P1e123N3q)
 
 
 #### Tools of Reference
 
  - http://btv.melezinek.cz/binary-heap.html
  - Video description
+
  [![video](https://i.ytimg.com/vi/FC5hDx2cDPc/hqdefault.jpg)](https://youtu.be/FC5hDx2cDPc) (spanish)
