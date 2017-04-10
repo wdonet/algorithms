@@ -53,3 +53,5 @@ Heap sort happens in two phases.
 #### Tools of Reference
 
  - http://btv.melezinek.cz/binary-heap.html
+ - Video description
+ [![video](https://i.ytimg.com/vi/FC5hDx2cDPc/hqdefault.jpg)](https://youtu.be/FC5hDx2cDPc) (spanish)
