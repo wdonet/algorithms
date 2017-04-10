@@ -46,7 +46,7 @@ Heap sort happens in two phases.
         - Remove the top of the head into an array
         - Fix the heap.
 
-![sortingTheHeap](https://d3vv6lp55qjaqc.cloudfront.net/items/423f3M410x080H161M05/Screen%20Recording%202017-04-10%20at%2003.52%20AM.gif)
+![sortingTheHeap](http://d3vv6lp55qjaqc.cloudfront.net/items/423f3M410x080H161M05/Screen%20Recording%202017-04-10%20at%2003.52%20AM.gif)
 [link](https://cl.ly/3o2P1e123N3q)
 
 
