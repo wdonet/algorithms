@@ -24,7 +24,7 @@ A **heap** is a _binary tree_ where:
   
   where _i_ is the parent's index
    
- ![indexes](http://i.imgur.com/bp1FFjF.png)
+ ![indexes](http://i.imgur.com/uOmTlKD.jpg)
 
 ### Time Complexity:
 
