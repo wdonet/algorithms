@@ -49,5 +49,7 @@ Heap sort happens in two phases.
 ![sortingTheHeap](https://d3vv6lp55qjaqc.cloudfront.net/items/423f3M410x080H161M05/Screen%20Recording%202017-04-10%20at%2003.52%20AM.gif)
 [link](https://cl.ly/3o2P1e123N3q)
 
+
 #### Tools of Reference
+
  - http://btv.melezinek.cz/binary-heap.html
