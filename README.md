@@ -6,7 +6,7 @@ How Algorithms work (with python code)
 
 - Quick
 - Merge
-- Heap
+- [Heap](heap)
 - Bubble
 - Insertion
 - Selection
