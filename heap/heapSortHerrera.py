@@ -6,8 +6,7 @@
 
 
 def heap_sort(a_list):
-    print 'ORIGINAL:'
-    print a_list
+    print 'ORIGINAL: %s ' % a_list
 
     print '\nCREATING HEAP:'
     the_heap = []
@@ -18,11 +17,10 @@ def heap_sort(a_list):
 
     for last in range(len(the_heap) - 1, 0, -1):
         swap(the_heap, 0, last)
-        print ('swap', the_heap, last)
+        print 'swap> %s with index %d <' % (the_heap, last)
         fix_heap_down(the_heap, 0, last)
 
-    print '\nRESULT:'
-    print the_heap
+    print '\nRESULT: %s' % the_heap
     return the_heap
 
 
@@ -49,7 +47,7 @@ def fix_heap_down(heap, parent_index, last_index):
         child_index = 2 * parent_index + (1 if is_left_grater else 2)
         if child_index < last_index and heap[parent_index] < heap[child_index]:
             swap(heap, parent_index, child_index)
-            print ('fix-', heap, last_index)
+            print 'fix > %s with index %d' % (heap, last_index)
             fix_heap_down(heap, child_index, last_index)
 
 
