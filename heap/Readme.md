@@ -56,6 +56,6 @@ Heap sort happens in two phases.
 
  - http://btv.melezinek.cz/binary-heap.html
  - Video description
- - Test at [heapSortTest.py](test/heapSortTest.py)
+ - Test at [TestHeapSort.py](https://github.com/wdonet/algorithms/blob/master/test/TestHeapSort.py)
 
  [![video](https://i.ytimg.com/vi/FC5hDx2cDPc/hqdefault.jpg)](https://youtu.be/FC5hDx2cDPc) (spanish)
