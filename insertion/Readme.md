@@ -33,5 +33,4 @@ The algorithm could start from the right or from the left (which is more common)
  - Worst **O(n^2)**
  
 #### Tools of Reference
-
-- Test at [insertionSortTest.py](https://github.com/wdonet/algorithms/blob/master/test/TestInsertionSort.py)
+- Test at [TestInsertionSort.py](https://github.com/wdonet/algorithms/blob/master/test/TestInsertionSort.py)
