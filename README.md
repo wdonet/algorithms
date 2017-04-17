@@ -8,7 +8,7 @@ How Algorithms work (with python code)
 - Merge
 - [Heap](heap)
 - Bubble
-- Insertion
+- [Insertion](insertion)
 - Selection
 
 ## _References_
