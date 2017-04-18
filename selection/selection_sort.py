@@ -12,10 +12,4 @@ def selection_sort(input_list):
             input_list[i] = input_list[position_of_min]
             input_list[position_of_min] = temp
 
-    return input_list;
-
-
-
-
-
-
+    return input_list
