@@ -6,9 +6,13 @@ How Algorithms work (with python code)
 
 - Quick
 - Merge
-- Heap
+- [Heap](heap)
 - Bubble
-- Insertion
-- Selection
+- [Insertion](insertion)
+- [Selection](selection)
 
-## _More coming soon_
+## _References_
+
+- [Structuring](http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/) your project
+- Python 3 [Doc](https://docs.python.org/3/)
+- Unit Testing [Doc](https://docs.python.org/3/library/unittest.html)
