@@ -9,11 +9,10 @@ How Algorithms work (with python code)
 - [Heap](heap)
 - Bubble
 - [Insertion](insertion)
-- Selection
+- [Selection](selection)
 
 ## _References_
 
 - [Structuring](http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/) your project
 - Python 3 [Doc](https://docs.python.org/3/)
 - Unit Testing [Doc](https://docs.python.org/3/library/unittest.html)
-
