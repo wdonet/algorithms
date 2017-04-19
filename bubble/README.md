@@ -9,14 +9,16 @@ It's necessary to review the list several times until no  changes are needed.
 
 ## Algorithm
 
-```begin BubbleSort(list)
+```
+begin BubbleSort(list)
    for all elements of list
       if list[i] > list[i+1]
          swap(list[i], list[i+1])
       end if
    end for 
    return list
-end BubbleSort```
+end BubbleSort
+```
 
 ## 
 
