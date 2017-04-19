@@ -4,7 +4,7 @@ Compares every element in the list with the following element, changing the elem
 It's necessary to review the list several times until no  changes are needed, which indicates the list is sorted
 
 - Time complexity: O(n^2)
-- Space complexity: O(n)
+- Space complexity: In Place
 
 ## Step by step
 Sort: 5, 1, 4, 2, 8
