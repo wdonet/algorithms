@@ -20,7 +20,16 @@ begin BubbleSort(list)
 end BubbleSort
 ```
 
-## 
+## Step by step
+
+Sort: 5, 1, 4, 2, 8
+
+First pass:
+
+    **5 1** 4 2 8 -> **1 5** 4 2 8
+    
+
+## Functionality
 
 ![insertionSortGif](Bubble-sort-.gif)
 
