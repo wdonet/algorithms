@@ -1,5 +1,5 @@
 #a_list = [6, 8, 12, 11, 15, 13, 20, 3, 10]
-a_list = [5, 1, 4, 2, 8]
+a_list = [1,2,3,4]
 print 'ORIGINAL: %s\n' % a_list
 swapped = True
 step = 1

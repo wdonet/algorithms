@@ -3,7 +3,9 @@ Compares every element in the list with the following element, changing the elem
 
 It's necessary to review the list several times until no  changes are needed, which indicates the list is sorted
 
-- Time complexity: O(n^2)
+- Time complexity:
+  - Best: O(n)
+  - Average: O(n^2)
 - Space complexity: In Place
 
 ## Step by step
