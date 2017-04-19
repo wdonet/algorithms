@@ -16,7 +16,7 @@ Advantages:
 2. Start temporal index (**j**) to index-1
 3. While j >= 0 Do
   + Compare pivot vs content at j
-  + if it is greater, _move content to the right_ from j to j+1
+  + if it is greater, **move** content of j to the right _(and hold the pivot)_
   + Decrease j in 1
 4. Set pivot content at j+1 _(once j has reached the beginning of the array or the right place in the sorted elements at left side)_
 
