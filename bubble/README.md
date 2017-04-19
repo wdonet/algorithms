@@ -1,5 +1,4 @@
 # Bubble Sort
-
 Compares every element in the list with the following element, changing the elements if they are in a wrong sort.
 
 It's necessary to review the list several times until no  changes are needed, which indicates the list is sorted
@@ -8,7 +7,6 @@ It's necessary to review the list several times until no  changes are needed, wh
 - Space complexity: θ(n)
 
 ## Step by step
-
 Sort: 5, 1, 4, 2, 8
 
 First pass:
@@ -32,7 +30,6 @@ Third pass:
 Since no more changes the list is sorted
 
 ## Pseudocode
-
 ```
 do
   swapped = false
@@ -45,6 +42,5 @@ while swapped
 
 
 ## Functionality
-
 ![insertionSortGif](Bubble-sort-.gif)
 
