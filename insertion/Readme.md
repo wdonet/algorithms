@@ -34,3 +34,6 @@ The algorithm could start from the right or from the left (which is more common)
  
 #### Tools of Reference
 - Test at [TestInsertionSort.py](https://github.com/wdonet/algorithms/blob/master/test/TestInsertionSort.py)
+- Video explanation (spanish)
+
+[![InsertionSortVideo](https://d3vv6lp55qjaqc.cloudfront.net/items/3h1g3w2r0w202u3F0j2D/Screen%20Shot%202017-04-20%20at%202.56.06%20PM.png?v=5670dcba)](https://youtu.be/cu6cgd845Uc)
