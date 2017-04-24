@@ -39,9 +39,12 @@ performance and the worst case O(n^2).
 
 Some recommendations are:
 * Middle value
-* Random 
+* Random
+* Median-of-three
 
 ## References
 
  - https://en.wikipedia.org/wiki/Quicksort
  - http://www.algolist.net/Algorithms/Sorting/Quicksort
+ - http://stackoverflow.com/questions/164163/quicksort-choosing-the-pivot
+ 
