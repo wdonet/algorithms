@@ -8,7 +8,7 @@ class TestHeapSort(unittest.TestCase):
         array = [2, 4, 1, 6, 8, 5, 3, 7]
         Algorithm.merge_sort(array)
         print 'Final Array: %s' % array
-        self.assertEqual(array, [1,2,3,4,5,6,7,8])
+        self.assertEqual(array, [1, 2, 3, 4, 5, 6, 7, 8])
 
 if __name__ == '__main__':
     unittest.main()
