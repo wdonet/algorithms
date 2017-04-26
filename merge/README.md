@@ -4,42 +4,119 @@ Divide the original array until have one element and then start merging every su
 
 - Time complexity: O(n log n)
 - Space complexity: O(n log n)
+- Recursive
+- Divide and conquer
 
-## Step by step
-Sort: 5, 1, 4, 2, 8
+# Algorithm
 
-First pass:
-- __5 1__ 4 2 8 -> __1 5__ 4 2 8 - swap(5,1)
-- 1 __5 4__ 2 8 -> 1 __4 5__ 2 8 - swap(5,4)
-- 1 4 __5 2__ 8 -> 1 4 __2 5__ 8 - swap(5,2)
-- 1 4 2 __5 8__ -> 1 4 2 __5 8__
+1. If there is one or zero elements, it's already sorted, otherwise
+2. Divide the array in two arrays of same length
+3. Sort each array
+4. Merge both arrays
 
-Second pass:
-- __1 4__ 2 5 8 -> __1 4__ 2 5 8
-- 1 __4 2__ 5 8 -> 1 __2 4__ 5 8 - swap(4,2)
-- 1 2 __4 5__ 8 -> 1 2 __4 5__ 8
-- 1 2 4 __5 8__ -> 1 2 4 __5 8__
+## Steps
 
-Third pass:
-- __1 2__ 4 5 8 -> __1 2__ 4 5 8
-- 1 __2 4__ 5 8 -> 1 __2 4__ 5 8
-- 1 2 __4 5__ 8 -> 1 2 __4 5__ 8
-- 1 2 4 __5 8__ -> 1 2 4 __5 8__
+Sort: 2, 4, 1, 6, 8, 5, 3, 7
 
-Since no more changes the list is sorted
+### 1. Divide in two arrays:
 
-## Pseudocode
+        2,4,1,6,8,5,3,7
+         /          \
+        /            \
+    L=2,4,1,6     R=8,5,3,7
+     
+    
+### 2. Sort L & R
+
+    1,2,4,6     3,5,7,8
+    
+### 3. Merge L & R
+
+    1,2,4,6     3,5,7,8
+        \         /
+         \       /
+      1,2,3,4,5,6,7,8
+   
+## Merge Process
+
+Find the smallest element which has not being processed from two arrays
+        
+     1,2,4,6   3,5,7,8   compares: 1<3? finalArray = 1 
+         4,6   3,5,7,8   compares: 2<3? finalArray = 1,2
+         4,6   3,5,7,8   compares: 4<3? finalArray = 1,2,3
+         4,6     5,7,8   compares: 4<5? finalArray = 1,2,3,4
+           6     5,7,8   compares: 6<5? finalArray = 1,2,3,4,5
+           6       7,8   compares: 6<7? finalArray = 1,2,3,4,5,6
+                   7,8   compares: 6<7? finalArray = 1,2,3,4,5,6
+                   
+When one array is empty, we only need to add the missing elements to the finalArray
+
+    finalArray = 1,2,3,4,5,6,7,8
+     
+    
+## How to sort L & R
+
+Keep dividing the array until have only one element
+
+            2,4,1,6,8,5,3,7
+             /           \
+       2,4,1,6           8,5,3,7
+        /    \          /      \
+      2,4    1,6       8,5    3,7
+      / \    / \       / \    /  \
+     2  4   1   6     8  5   3    7
+     
+Then apply the merge process to every sub-array
+
+            1,2,3,4,5,6,7,8
+             /         \
+       1,2,4,6        3,5,7,8
+        /    \        /     \
+      2,4    1,6     5,8    3,7
+      / \    / \     / \   /  \
+     2  4   1  6    8  5  3    7
+    
+# Pseudocode
 ```
-do
-  swapped = false
-  for i = 1 to indexOfLastUnsortedElement
-    if leftElement > rightElement
-      swap(leftElement, rightElement)
-      swapped = true
-while swapped
+    mergeSort(A) is
+        n ← length(A)
+        if (n >= 2) then
+            mid ← n/2
+            L ← A[0 … mid-1]
+            R ← A[mid … n]
+            mergeSort(L)
+            mergeSort(R)
+            merge(L, R, A)
+        end if
+    end
+    
+    merge (L, R, A) is
+        nL ← length(L)
+        nR ← length(R)
+        i ← j ← k ← 0
+        while (i < nL && j < nR) do
+            if (L[i] <= R[j]) then
+                A[k] ← L[i] 
+                i ← i + 1
+            else
+                A[k] ← R[j]
+                j ← j + 1
+            end if
+            k ← k + 1
+        end while
+        while (i < nL) do
+            A[k] ← L[i] 
+            i ← i + 1
+            k ← k + 1
+        end while
+        while (j < nR) do
+            A[k] ← R[j]
+            j ← j + 1
+            k ← k + 1
+        end while
+    end
 ```
 
-
-## Functionality
-![mergeSortGif](Merge-sort-.gif)
+# Functionality
+![mergeSortGif](Merge-sort.gif)
 
