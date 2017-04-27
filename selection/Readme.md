@@ -1,7 +1,7 @@
 # Selection sort
 
 * Time complexity: θ(n^2)
-* Space complexity: θ(n)
+* Space complexity: In place
 * Very simple implementation
 
 ## Algorithm
