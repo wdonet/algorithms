@@ -4,7 +4,7 @@ How Algorithms work (with python code)
 
 ## _Sorting_ Algorithms
 
-- Quick
+- [Quick](quick)
 - [Merge](merge)
 - [Heap](heap)
 - [Bubble](bubble)
