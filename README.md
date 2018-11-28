@@ -5,9 +5,9 @@ How Algorithms work (with python code)
 ## _Sorting_ Algorithms
 
 - Quick
-- Merge
+- [Merge](merge)
 - [Heap](heap)
-- Bubble
+- [Bubble](bubble)
 - [Insertion](insertion)
 - [Selection](selection)
 
